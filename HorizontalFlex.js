@@ -3,7 +3,6 @@ import { styled, withTheme } from "styled-components";
 import PropTypes from "prop-types";
 import Flex from "./Flex";
 import Box from "./Box";
-import Footer from "./Footer";
 
 export default withTheme(
   class HorizontalFlex extends React.Component {
@@ -19,7 +18,6 @@ export default withTheme(
 
     render() {
       const { className, children, theme } = this.props;
-      //const kids = children.split(" ");
       const kids = React.Children.toArray(children);
       const numberOfChildren = kids.length;
 
@@ -37,9 +35,6 @@ export default withTheme(
               {k}
             </Box>
           ))}
-          <Footer>
-            <img src="/Img/image_57.png" width="10%" height="10%" />
-          </Footer>
         </Flex>
       );
     }
