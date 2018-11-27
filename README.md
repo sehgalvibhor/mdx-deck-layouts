@@ -1,5 +1,5 @@
 # mdx-deck-layouts
-MDX-Deck Layouts
+MDX-Deck Layouts samples.
 
 
 #### VerticalFlex.js
