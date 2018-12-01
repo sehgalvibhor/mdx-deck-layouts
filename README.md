@@ -12,6 +12,9 @@ Example (In combination with Split Layout):
 #### HorizontalFlex.js
 Creates a flex-box layout of direct components stacked horizontally, better than conventional LeftRight layout if the number of elements are greater than 2.
 
+Example:
+![image](https://user-images.githubusercontent.com/10993808/49327972-947a3c00-f58e-11e8-85b8-46ce4145597c.png)
+
 
 #### Provider.js
 Updated Provider file with an added Footer which displays the slide count as 'Slide 1 of N' apart from the dots at the bottom.
