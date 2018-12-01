@@ -21,3 +21,28 @@ Example:
 
 #### ImageHorizontal.js
 Flex box of N horizontal images with proper spacing and padding to ensure that they look beautiful :)
+
+
+#### GridLayout Example
+
+Mix of Vertical layout with HorizontalFlex can give you a matrix like view if you want to make the slides more stylish.
+
+Code:
+```
+---
+
+export default VerticalLayout   
+
+<Appear>
+<h4>Title Comes Here</h4>
+<h4><HorizontalFlex key="1"><h6>Short Title Here </h6><h6>Description of the title<br></br> And continued here</h6></HorizontalFlex></h4>
+<h4><HorizontalFlex key="2"><h6>Short Title Here</h6><h6>Description of the title<br></br> And continued here</h6></HorizontalFlex></h4>
+</Appear>
+
+```
+
+Example:
+
+![image](https://user-images.githubusercontent.com/10993808/49327933-fd14e900-f58d-11e8-92a2-4689a9e0fbf9.png)
+
+
