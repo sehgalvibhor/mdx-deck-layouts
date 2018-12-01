@@ -1,5 +1,7 @@
 # mdx-deck-layouts
-MDX-Deck Layouts samples.
+MDX-Deck Layouts samples. 
+
+### Note: Please create an issue if you want specific layouts for the presentations.
 
 
 #### VerticalFlex.js
